@@ -50,14 +50,26 @@
 //     console.log("Invalid age entered.");
 // }
 
-// find the square of each number in an array=[1,3,9,12,15,18,21] using loop
-let arr = [1, 3, 9, 12, 15, 18, 21];
+// // find the square of each number in an array=[1,3,9,12,15,18,21] using loop
+// let arr = [1, 3, 9, 12, 15, 18, 21];
 
-for (let i = 0; i < 7; i++) {
-    sum[i] = arr[i] * arr[i];
+// for (let i = 0; i < 7; i++) {
+//     arr[i] = arr[i] * arr[i];
+// }
+
+// console.log(arr); 
+
+// Write a program to find the sum of all the odd numbers for a given limit (if you choose limit as 10 then need to find the sum of all odd numbers in between 1 and 10 )
+function oddsum(a) {
+    let a = 10;
+    let sum = 0;
+    let number = 1; 
+    for (let i = 0; i < a; i++) {
+        sum += number;
+        number += 2;
+    }
+    return sum;
 }
 
-console.log(sum); 
 
-
-
+console.log("Sum of the first", a, "odd numbers is", oddsum(a));
