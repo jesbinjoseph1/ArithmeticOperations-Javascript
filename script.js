@@ -35,17 +35,29 @@
 //     console.log("The number is zero.");
 // }
 
-// Write a script that takes a user's age and checks if they are a child (0-12), teenager (13-19), adult (20-59), or senior (60 and above).
+// // Write a script that takes a user's age and checks if they are a child (0-12), teenager (13-19), adult (20-59), or senior (60 and above).
 
-let age1 = 62
-if (age1 >= 0 && age1 <= 12) {
-    console.log("You are a child.");
-} else if (age1 >= 13 && age1 <= 19) {
-    console.log("You are a teenager.");
-} else if (age1 >= 20 && age1 <= 59) {
-    console.log("You are an adult.");
-} else if (age1 >= 60) {
-    console.log("You are a senior.");
-} else {
-    console.log("Invalid age entered.");
+// let age1 = 62
+// if (age1 >= 0 && age1 <= 12) {
+//     console.log("You are a child.");
+// } else if (age1 >= 13 && age1 <= 19) {
+//     console.log("You are a teenager.");
+// } else if (age1 >= 20 && age1 <= 59) {
+//     console.log("You are an adult.");
+// } else if (age1 >= 60) {
+//     console.log("You are a senior.");
+// } else {
+//     console.log("Invalid age entered.");
+// }
+
+// find the square of each number in an array=[1,3,9,12,15,18,21] using loop
+let arr = [1, 3, 9, 12, 15, 18, 21];
+
+for (let i = 0; i < 7; i++) {
+    sum[i] = arr[i] * arr[i];
 }
+
+console.log(sum); 
+
+
+
