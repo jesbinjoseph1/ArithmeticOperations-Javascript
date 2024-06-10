@@ -10,28 +10,42 @@
 // area=length*width
 // console.log(area);
 
-// Create a program that asks the user for their age and determines if they are eligible to vote (considering a voting age of 18).
+// // Create a program that asks the user for their age and determines if they are eligible to vote (considering a voting age of 18)
 // let age =17
 // if (age<18){
 //     console.log("not eligible");
 // }
-// else {
-//     console.log('eligible to vote');
+// else{
+//     console.log("eligible to vote");
 // }
 
-// Write a script that takes a user's grade as input and outputs whether they passed or failed (assuming the passing grade is 60 or above).
+// // Write a script that takes a user's grade as input and outputs whether they passed or failed (assuming the passing grade is 60 or above).
 // let grade=70
 // let x=grade>=60 ? 'pass':'fail'
 // console.log(x);
 
-// Implement a program that checks if a user's entered number is positive, negative, or zero.
-// Get the user's input
-let userInput =-1
+// // Implement a program that checks if a user's entered number is positive, negative, or zero.
+// let userInput =-1
 
-if (userInput > 0) {
-    console.log("The number is positive.");
-} else if (userInput < 0) {
-    console.log("The number is negative.");
+// if (userInput > 0) {
+//     console.log("The number is positive.");
+// } else if (userInput < 0) {
+//     console.log("The number is negative.");
+// } else {
+//     console.log("The number is zero.");
+// }
+
+// Write a script that takes a user's age and checks if they are a child (0-12), teenager (13-19), adult (20-59), or senior (60 and above).
+
+let age1 = 62
+if (age1 >= 0 && age1 <= 12) {
+    console.log("You are a child.");
+} else if (age1 >= 13 && age1 <= 19) {
+    console.log("You are a teenager.");
+} else if (age1 >= 20 && age1 <= 59) {
+    console.log("You are an adult.");
+} else if (age1 >= 60) {
+    console.log("You are a senior.");
 } else {
-    console.log("The number is zero.");
+    console.log("Invalid age entered.");
 }
